@@ -8,26 +8,36 @@
 
 /* Begin PBXBuildFile section */
 		E3480C5024B65A5A007B7D19 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C4F24B65A5A007B7D19 /* AppDelegate.swift */; };
-		E3480C5224B65A5A007B7D19 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3480C5124B65A5A007B7D19 /* GameScene.sks */; };
-		E3480C5424B65A5A007B7D19 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = E3480C5324B65A5A007B7D19 /* Actions.sks */; };
-		E3480C5624B65A5A007B7D19 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C5524B65A5A007B7D19 /* GameScene.swift */; };
 		E3480C5824B65A5A007B7D19 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C5724B65A5A007B7D19 /* GameViewController.swift */; };
 		E3480C5B24B65A5A007B7D19 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3480C5924B65A5A007B7D19 /* Main.storyboard */; };
 		E3480C5D24B65A5F007B7D19 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E3480C5C24B65A5F007B7D19 /* Assets.xcassets */; };
 		E3480C6024B65A5F007B7D19 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E3480C5E24B65A5F007B7D19 /* LaunchScreen.storyboard */; };
+		E3480C6E24B65E25007B7D19 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C6D24B65E25007B7D19 /* GameScene.swift */; };
+		E3480C7124B65F5A007B7D19 /* Ground.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C7024B65F5A007B7D19 /* Ground.swift */; };
+		E3480C7324B6657F007B7D19 /* Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C7224B6657F007B7D19 /* Player.swift */; };
+		E3480C7724B6F964007B7D19 /* Cloud.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C7624B6F964007B7D19 /* Cloud.swift */; };
+		E3480C7A24B6FCC3007B7D19 /* Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C7924B6FCC3007B7D19 /* Types.swift */; };
+		E3480C7C24B70EB7007B7D19 /* HeadUpDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C7B24B70EB7007B7D19 /* HeadUpDisplay.swift */; };
+		E3480C7F24B71067007B7D19 /* All The Roll - Personal Use.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3480C7E24B71067007B7D19 /* All The Roll - Personal Use.otf */; };
+		E3480C8124B7191D007B7D19 /* ScoreGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C8024B7191D007B7D19 /* ScoreGenerator.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		E3480C4C24B65A5A007B7D19 /* NinjaRun.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NinjaRun.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3480C4F24B65A5A007B7D19 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E3480C5124B65A5A007B7D19 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		E3480C5324B65A5A007B7D19 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
-		E3480C5524B65A5A007B7D19 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
 		E3480C5724B65A5A007B7D19 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
 		E3480C5A24B65A5A007B7D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E3480C5C24B65A5F007B7D19 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E3480C5F24B65A5F007B7D19 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E3480C6124B65A5F007B7D19 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E3480C6D24B65E25007B7D19 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		E3480C7024B65F5A007B7D19 /* Ground.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ground.swift; sourceTree = "<group>"; };
+		E3480C7224B6657F007B7D19 /* Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Player.swift; sourceTree = "<group>"; };
+		E3480C7624B6F964007B7D19 /* Cloud.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloud.swift; sourceTree = "<group>"; };
+		E3480C7924B6FCC3007B7D19 /* Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Types.swift; sourceTree = "<group>"; };
+		E3480C7B24B70EB7007B7D19 /* HeadUpDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadUpDisplay.swift; sourceTree = "<group>"; };
+		E3480C7E24B71067007B7D19 /* All The Roll - Personal Use.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "All The Roll - Personal Use.otf"; sourceTree = "<group>"; };
+		E3480C8024B7191D007B7D19 /* ScoreGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGenerator.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,17 +70,70 @@
 		E3480C4E24B65A5A007B7D19 /* NinjaRun */ = {
 			isa = PBXGroup;
 			children = (
+				E3480C7D24B70FE2007B7D19 /* Fonts */,
+				E3480C6F24B65F43007B7D19 /* Characters */,
+				E3480C6A24B65CD6007B7D19 /* Helpers */,
+				E3480C6924B65B5F007B7D19 /* Scenes */,
+				E3480C6824B65B55007B7D19 /* Controllers */,
+				E3480C6724B65AB4007B7D19 /* Resources */,
 				E3480C4F24B65A5A007B7D19 /* AppDelegate.swift */,
-				E3480C5124B65A5A007B7D19 /* GameScene.sks */,
-				E3480C5324B65A5A007B7D19 /* Actions.sks */,
-				E3480C5524B65A5A007B7D19 /* GameScene.swift */,
-				E3480C5724B65A5A007B7D19 /* GameViewController.swift */,
+			);
+			path = NinjaRun;
+			sourceTree = "<group>";
+		};
+		E3480C6724B65AB4007B7D19 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
 				E3480C5924B65A5A007B7D19 /* Main.storyboard */,
 				E3480C5C24B65A5F007B7D19 /* Assets.xcassets */,
 				E3480C5E24B65A5F007B7D19 /* LaunchScreen.storyboard */,
 				E3480C6124B65A5F007B7D19 /* Info.plist */,
 			);
-			path = NinjaRun;
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		E3480C6824B65B55007B7D19 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				E3480C5724B65A5A007B7D19 /* GameViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		E3480C6924B65B5F007B7D19 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				E3480C6D24B65E25007B7D19 /* GameScene.swift */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		E3480C6A24B65CD6007B7D19 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				E3480C7924B6FCC3007B7D19 /* Types.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		E3480C6F24B65F43007B7D19 /* Characters */ = {
+			isa = PBXGroup;
+			children = (
+				E3480C7024B65F5A007B7D19 /* Ground.swift */,
+				E3480C7224B6657F007B7D19 /* Player.swift */,
+				E3480C7624B6F964007B7D19 /* Cloud.swift */,
+				E3480C7B24B70EB7007B7D19 /* HeadUpDisplay.swift */,
+				E3480C8024B7191D007B7D19 /* ScoreGenerator.swift */,
+			);
+			path = Characters;
+			sourceTree = "<group>";
+		};
+		E3480C7D24B70FE2007B7D19 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				E3480C7E24B71067007B7D19 /* All The Roll - Personal Use.otf */,
+			);
+			path = Fonts;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -132,10 +195,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3480C5B24B65A5A007B7D19 /* Main.storyboard in Resources */,
-				E3480C5224B65A5A007B7D19 /* GameScene.sks in Resources */,
 				E3480C5D24B65A5F007B7D19 /* Assets.xcassets in Resources */,
 				E3480C6024B65A5F007B7D19 /* LaunchScreen.storyboard in Resources */,
-				E3480C5424B65A5A007B7D19 /* Actions.sks in Resources */,
+				E3480C7F24B71067007B7D19 /* All The Roll - Personal Use.otf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -146,9 +208,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E3480C5624B65A5A007B7D19 /* GameScene.swift in Sources */,
+				E3480C7C24B70EB7007B7D19 /* HeadUpDisplay.swift in Sources */,
 				E3480C5824B65A5A007B7D19 /* GameViewController.swift in Sources */,
+				E3480C6E24B65E25007B7D19 /* GameScene.swift in Sources */,
 				E3480C5024B65A5A007B7D19 /* AppDelegate.swift in Sources */,
+				E3480C8124B7191D007B7D19 /* ScoreGenerator.swift in Sources */,
+				E3480C7724B6F964007B7D19 /* Cloud.swift in Sources */,
+				E3480C7A24B6FCC3007B7D19 /* Types.swift in Sources */,
+				E3480C7324B6657F007B7D19 /* Player.swift in Sources */,
+				E3480C7124B65F5A007B7D19 /* Ground.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +362,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PYAHU7CY6;
-				INFOPLIST_FILE = NinjaRun/Info.plist;
+				INFOPLIST_FILE = NinjaRun/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -312,7 +380,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 3PYAHU7CY6;
-				INFOPLIST_FILE = NinjaRun/Info.plist;
+				INFOPLIST_FILE = NinjaRun/Resources/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
