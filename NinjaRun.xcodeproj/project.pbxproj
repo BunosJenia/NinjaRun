@@ -20,6 +20,8 @@
 		E3480C7C24B70EB7007B7D19 /* HeadUpDisplay.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C7B24B70EB7007B7D19 /* HeadUpDisplay.swift */; };
 		E3480C7F24B71067007B7D19 /* All The Roll - Personal Use.otf in Resources */ = {isa = PBXBuildFile; fileRef = E3480C7E24B71067007B7D19 /* All The Roll - Personal Use.otf */; };
 		E3480C8124B7191D007B7D19 /* ScoreGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3480C8024B7191D007B7D19 /* ScoreGenerator.swift */; };
+		E3480CB424BCE8B0007B7D19 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = E3480CB324BCE8B0007B7D19 /* README.md */; };
+		E3480CB624BCE98E007B7D19 /* ninjarun.gif in Resources */ = {isa = PBXBuildFile; fileRef = E3480CB524BCE98E007B7D19 /* ninjarun.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -38,6 +40,8 @@
 		E3480C7B24B70EB7007B7D19 /* HeadUpDisplay.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HeadUpDisplay.swift; sourceTree = "<group>"; };
 		E3480C7E24B71067007B7D19 /* All The Roll - Personal Use.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "All The Roll - Personal Use.otf"; sourceTree = "<group>"; };
 		E3480C8024B7191D007B7D19 /* ScoreGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScoreGenerator.swift; sourceTree = "<group>"; };
+		E3480CB324BCE8B0007B7D19 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		E3480CB524BCE98E007B7D19 /* ninjarun.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = ninjarun.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,8 @@
 		E3480C4324B65A59007B7D19 = {
 			isa = PBXGroup;
 			children = (
+				E3480CB324BCE8B0007B7D19 /* README.md */,
+				E3480CB524BCE98E007B7D19 /* ninjarun.gif */,
 				E3480C4E24B65A5A007B7D19 /* NinjaRun */,
 				E3480C4D24B65A5A007B7D19 /* Products */,
 			);
@@ -195,7 +201,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E3480C5B24B65A5A007B7D19 /* Main.storyboard in Resources */,
+				E3480CB624BCE98E007B7D19 /* ninjarun.gif in Resources */,
 				E3480C5D24B65A5F007B7D19 /* Assets.xcassets in Resources */,
+				E3480CB424BCE8B0007B7D19 /* README.md in Resources */,
 				E3480C6024B65A5F007B7D19 /* LaunchScreen.storyboard in Resources */,
 				E3480C7F24B71067007B7D19 /* All The Roll - Personal Use.otf in Resources */,
 			);
